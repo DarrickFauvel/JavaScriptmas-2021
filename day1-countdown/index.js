@@ -1,8 +1,7 @@
 const containerEl = document.querySelector('.container')
 const countdownDisplay = document.getElementById('countdown-display')
-const pEl = document.createElement('p')
-pEl.classList.add('countdown.time')
-containerEl.appendChild(pEl)
+const divEl = document.createElement('div')
+containerEl.appendChild(divEl)
 
 function renderCountdown() {
   // Get today's date
