@@ -1,6 +1,7 @@
 const containerEl = document.querySelector('.container')
 const countdownDisplay = document.getElementById('countdown-display')
-const pEl = document.createElement('p').classList.add('countdown.time')
+const pEl = document.createElement('p')
+pEl.classList.add('countdown.time')
 containerEl.appendChild(pEl)
 
 function renderCountdown() {
@@ -30,6 +31,7 @@ function renderCountdown() {
   /*
   Stretch Goal: Display hours, minutes, and seconds
   */
+
   // Calculate milliseconds between today and Christmas
   const timeDistance = christmasDate.getTime() - todaysDate.getTime()
 
