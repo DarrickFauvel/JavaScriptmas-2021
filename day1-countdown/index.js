@@ -27,16 +27,20 @@ function renderCountdown() {
   // Display days until Christmas in countdownDisplay.
   countdownDisplay.innerText = daysUntilChristmas
 
-  // Stretch Goals:
-  // Display hours, minutes, and seconds
+  /*
+  Stretch Goal: Display hours, minutes, and seconds
+  */
+  // Calculate milliseconds between today and Christmas
   const timeDistance = christmasDate.getTime() - todaysDate.getTime()
+
+  // Calculate hours, minutes, and seconds until next day
   const seconds = Math.floor((timeDistance % (1000 * 60)) / 1000)
   const minutes = Math.floor((timeDistance % (1000 * 60 * 60)) / (1000 * 60))
   const hours = Math.floor(
     (timeDistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
   )
-  const days = Math.floor(timeDistance / (1000 * 60 * 60 * 24))
 
+  // Display time until next day
   pEl.innerText = `${hours} hours : ${minutes} minutes : ${seconds} seconds`
 }
 
