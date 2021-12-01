@@ -42,7 +42,23 @@ function renderCountdown() {
   )
 
   // Display time until next day
-  pEl.innerText = `${hours} hours : ${minutes} minutes : ${seconds} seconds`
+  divEl.innerHTML = `
+  <p>and...</p>
+  <div class='countdown-time'>
+    <div>
+      <p class='time-title'>${hours}</p>
+      <p class='time-label'>hours</p>
+    </div>
+    <div>
+      <p class='time-title'>${minutes}</p>
+      <p class='time-label'>minutes</p>
+    </div>
+    <div>
+      <p class='time-title'>${seconds}</p>
+      <p class='time-label'>seconds</p>
+    </div>
+  </div>
+  `
 }
 
 setInterval(renderCountdown, 1000)
