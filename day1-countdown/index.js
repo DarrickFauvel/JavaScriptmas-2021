@@ -1,6 +1,6 @@
 const containerEl = document.querySelector('.container')
 const countdownDisplay = document.getElementById('countdown-display')
-const pEl = document.createElement('p')
+const pEl = document.createElement('p').classList.add('countdown.time')
 containerEl.appendChild(pEl)
 
 function renderCountdown() {
