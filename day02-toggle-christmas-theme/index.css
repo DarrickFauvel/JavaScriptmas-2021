@@ -36,7 +36,18 @@ body {
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
-input:hover,
+input {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+label {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
 label:hover {
   cursor: pointer;
 }
