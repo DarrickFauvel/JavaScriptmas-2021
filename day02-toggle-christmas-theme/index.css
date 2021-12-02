@@ -56,6 +56,11 @@ p {
   font-size: 45px;
 }
 
+.radio-group {
+  display: flex;
+  flex-direction: row;
+}
+
 .radio-container {
   width: 200px;
   font-size: 22px;
