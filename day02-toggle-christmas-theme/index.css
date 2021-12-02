@@ -62,7 +62,11 @@ p {
 }
 
 .radio-container {
-  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
   font-size: 22px;
 }
 
