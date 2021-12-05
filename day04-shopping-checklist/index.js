@@ -14,7 +14,33 @@ const renderChecklist = () => {
   checklist.innerHTML = htmlContent
 }
 
+// Stretch goals:
+// - Add an input which allows the user to add more items.
+const renderForm = () => {
+  const formEl = document.createElement('form')
+  const inputAdd = document.createElement('input')
+  inputAdd.type = 'text'
+  inputAdd.setAttribute('id', 'input-add')
+  inputAdd.setAttribute('placeholder', 'Enter item...')
+  formEl.appendChild(inputAdd)
+
+  const buttonAdd = document.createElement('button')
+  buttonAdd.textContent = 'Add'
+  buttonAdd.addEventListener('click', (e) => {
+    e.preventDefault()
+    if (inputAdd.value) {
+      items.push(inputAdd.value)
+      inputAdd.value = ''
+      inputAdd.focus()
 renderChecklist()
+    }
+    inputAdd.focus()
+  })
+  formEl.appendChild(buttonAdd)
+
+  checklist.insertAdjacentElement('beforebegin', formEl)
+  inputAdd.focus()
+}
 
 // Stretch goals:
 // - Add an input which allows the user to add more items.
