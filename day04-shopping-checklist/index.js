@@ -5,13 +5,13 @@ const checklist = document.getElementById('checklist')
 // - For each item in the items array, create a div with a class of "checklist-item", which contains a checkbox input and corresponding label.
 // - Make sure that the shopping list can render a checkbox for all the items, even if new items are added to the items array.
 const renderChecklist = () => {
-  let htmlContent = ''
-  items.forEach((item) => {
-    htmlContent += `<div class='checklist-item'>
-        <label for='${item}'><input type="checkbox" id='${item}' /> ${item}</label>
+  checklist.innerHTML = items
+    .map((item, index) => {
+      return `<div class='checklist-item'>
+        <label for='${index}'><input type="checkbox" id='${index}' /> ${item}</label>
         </div>`
-  })
-  checklist.innerHTML = htmlContent
+    })
+    .join('')
 }
 
 // Stretch goals:
@@ -32,7 +32,7 @@ const renderForm = () => {
       items.push(inputAdd.value)
       inputAdd.value = ''
       inputAdd.focus()
-renderChecklist()
+      renderChecklist()
     }
     inputAdd.focus()
   })
@@ -42,6 +42,6 @@ renderChecklist()
   inputAdd.focus()
 }
 
-// Stretch goals:
-// - Add an input which allows the user to add more items.
+renderChecklist()
+renderForm()
 // - Add a delete button for the items.
