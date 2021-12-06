@@ -13,3 +13,5 @@ December 1 - December 24
 4. [Day 04 - Shopping Checklist](https://darrickfauvel.github.io/JavaScriptmas-2021/day04-shopping-checklist/ 'Day 04 - Shopping Checklist')
 
 5. [Day 05 - Christmas Card Writer](https://darrickfauvel.github.io/JavaScriptmas-2021/day05-christmas-card-writer/ 'Day 05 - Christmas Card Writer')
+
+6. [Day 06 - Text Christmassifier](https://darrickfauvel.github.io/JavaScriptmas-2021/day06-text-christmassifier/ 'Day 06 - Text Christmassifier')
