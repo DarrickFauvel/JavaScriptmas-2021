@@ -15,3 +15,5 @@ December 1 - December 24
 5. [Day 05 - Christmas Card Writer](https://darrickfauvel.github.io/JavaScriptmas-2021/day05-christmas-card-writer/ 'Day 05 - Christmas Card Writer')
 
 6. [Day 06 - Text Christmassifier](https://darrickfauvel.github.io/JavaScriptmas-2021/day06-text-christmassifier/ 'Day 06 - Text Christmassifier')
+
+7. [Day 07 - Play a Christmas Song](https://darrickfauvel.github.io/JavaScriptmas-2021/day07-play-a-christmas-song/ 'Day 07 - Play a Christmas Song')
