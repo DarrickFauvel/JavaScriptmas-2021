@@ -5,6 +5,12 @@ decorator.addEventListener('click', deckTheHalls)
 function deckTheHalls() {
   // Task:
   // Write a function to add decorations (e.g. ☃️, 🎄, etc) next to the house when the switch is toggled.
+  if (house.textContent === '🏡') {
+    house.insertAdjacentText('afterbegin', '🎅☃️')
+    house.insertAdjacentText('beforeend', '🎄🤶')
+  } else {
+    house.textContent = '🏡'
+  }
 }
 
 // Stretch goals:
