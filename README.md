@@ -19,3 +19,5 @@ December 1 - December 24
 7. [Day 07 - Play a Christmas Song](https://darrickfauvel.github.io/JavaScriptmas-2021/day07-play-a-christmas-song/ 'Day 07 - Play a Christmas Song')
 
 8. [Day 08 - Bell Animator](https://darrickfauvel.github.io/JavaScriptmas-2021/day08-bell-animator/ 'Day 08 - Bell Animator')
+
+9. [Day 09 - Turn on the Decorations](https://darrickfauvel.github.io/JavaScriptmas-2021/day09-turn-on-the-decorations/ 'Day 09 - Turn on the Decorations')
