@@ -21,3 +21,5 @@ December 1 - December 24
 8. [Day 08 - Bell Animator](https://darrickfauvel.github.io/JavaScriptmas-2021/day08-bell-animator/ 'Day 08 - Bell Animator')
 
 9. [Day 09 - Turn on the Decorations](https://darrickfauvel.github.io/JavaScriptmas-2021/day09-turn-on-the-decorations/ 'Day 09 - Turn on the Decorations')
+
+10. [Day 10 - Festivity Loader](https://darrickfauvel.github.io/JavaScriptmas-2021/day10-festivity-loader/ 'Day 10 - Festivity Loader')
