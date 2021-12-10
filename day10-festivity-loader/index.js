@@ -1,5 +1,8 @@
 const meter = document.getElementById('meter')
 
+// Reset meter
+meter.value = 0
+
 // Task:
 // Write a function to wire up the festivity loader to reflect how many days are remaining until Christmas!
 const loader = () => {
