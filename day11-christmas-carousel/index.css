@@ -58,6 +58,11 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: var(--dark-green);
+  color: var(--gold);
+}
+
 .material-icons-outlined {
   font-size: 30px;
 }
