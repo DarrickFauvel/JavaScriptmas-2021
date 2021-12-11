@@ -23,6 +23,33 @@ let imgNum = 0
 // - Make sure that the gallery works no matter how many images are added.
 // - Decide/implement what to do when you reach either end of the array - do nothing and disable buttons, loop back round to the other end, or something else?
 // - Remember to also update the alt tags.
+const changeImage = () => {
+  img.setAttribute('src', imgs[imgNum].src)
+  img.setAttribute('alt', imgs[imgNum].alt)
+}
+
+const handleNext = () => {
+  if (imgNum >= 0 && imgNum < imgs.length - 1) {
+    imgNum++
+    changeImage()
+  } else {
+    imgNum = 0
+    changeImage()
+  }
+}
+
+const handlePrev = () => {
+  if (imgNum === 0) {
+    imgNum = imgs.length - 1
+    changeImage()
+  } else {
+    imgNum--
+    changeImage()
+  }
+}
+
+next.addEventListener('click', handleNext)
+previous.addEventListener('click', handlePrev)
 
 // Stretch goals:
 // - Add transitions for a smooth effect.
