@@ -24,4 +24,6 @@ December 1 - December 24
 
 10. [Day 10 - Festivity Loader](https://darrickfauvel.github.io/JavaScriptmas-2021/day10-festivity-loader/ 'Day 10 - Festivity Loader')
 
-11 [Day 11 - Christmas Carousel](https://darrickfauvel.github.io/JavaScriptmas-2021/day11-christmas-carousel/ 'Day 11 - Christmas Carousel')
+11. [Day 11 - Christmas Carousel](https://darrickfauvel.github.io/JavaScriptmas-2021/day11-christmas-carousel/ 'Day 11 - Christmas Carousel')
+
+12. [Day 12 - Christmas Guest List](https://darrickfauvel.github.io/JavaScriptmas-2021/day12-christmas-guest-list/ 'Day 12 - Christmas Guest List')
