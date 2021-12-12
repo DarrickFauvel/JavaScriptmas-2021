@@ -46,7 +46,7 @@ const handleSubmit = (e) => {
 
 const removeLastItem = () => {
   if (guests.length === 0) {
-    console.log(`That's all the guests we can remove!`)
+    console.log(`It's just Me & Cat now 😢`)
     return
   }
   guests.pop()
