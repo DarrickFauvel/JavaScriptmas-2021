@@ -25,16 +25,18 @@ const addItemToList = (guest) => {
   }
   guests.push(guest)
   renderNewGuest(guest)
+const reset = () => (input.value = '')
   const liEl = document.createElement('li')
   liEl.textContent = guest
   guestList.appendChild(liEl)
-  input.value = ''
+  reset()
 }
 
 const renderList = () => {
   guests.forEach((guest) => {
     renderNewGuest(guest)
   })
+  reset()
 }
 
 const handleSubmit = (e) => {
@@ -49,6 +51,7 @@ const removeLastItem = () => {
   }
   guests.pop()
   guestList.removeChild(guestList.lastElementChild)
+  reset()
 }
 
 const createRemoveButton = () => {
