@@ -25,7 +25,11 @@ const addItemToList = (guest) => {
   }
   guests.push(guest)
   renderNewGuest(guest)
+}
+
 const reset = () => (input.value = '')
+
+const renderNewGuest = (guest) => {
   const liEl = document.createElement('li')
   liEl.textContent = guest
   guestList.appendChild(liEl)
