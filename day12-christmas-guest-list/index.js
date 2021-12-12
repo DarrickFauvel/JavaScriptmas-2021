@@ -19,6 +19,10 @@ const addItemToList = (guest) => {
     console.log('Please enter a guest name')
     return
   }
+  if (guests.includes(guest)) {
+    console.log(`Guest '${guest}' is already on the list`)
+    return
+  }
   guests.push(guest)
   const liEl = document.createElement('li')
   liEl.textContent = guest
