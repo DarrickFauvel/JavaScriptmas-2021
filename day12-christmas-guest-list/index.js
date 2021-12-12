@@ -24,6 +24,7 @@ const addItemToList = (guest) => {
     return
   }
   guests.push(guest)
+  renderNewGuest(guest)
   const liEl = document.createElement('li')
   liEl.textContent = guest
   guestList.appendChild(liEl)
@@ -32,7 +33,7 @@ const addItemToList = (guest) => {
 
 const renderList = () => {
   guests.forEach((guest) => {
-    addItemToList(guest)
+    renderNewGuest(guest)
   })
 }
 
