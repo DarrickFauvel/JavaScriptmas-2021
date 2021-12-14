@@ -1,13 +1,22 @@
 const elf = document.getElementById('elf')
 const btn = document.getElementById('btn')
+const elfHangoutZone = document.querySelector('.elf-hangout-zone')
 
-btn.addEventListener('click', duplicateElf)
+let elfCount = 1
 
-function duplicateElf() {
+const duplicateElf = () => {
   // Task:
   // - Write a function to duplicate the elf when the button is clicked.
   // - See index.css for optional styling challenges.
+  if (elfCount <= 100) {
+    elf.innerHTML += /*html*/ `<div class='elf'>🧝</div>`
+    elfCount++
+  } else {
+    return
+  }
 }
+
+btn.addEventListener('click', duplicateElf)
 
 // Stretch goals:
 // - Write a function to give the elves some tools, or a cup of tea!
