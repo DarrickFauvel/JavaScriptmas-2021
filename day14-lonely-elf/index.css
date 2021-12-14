@@ -11,6 +11,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -29,16 +30,18 @@ body {
   /* Make sure that the elves stay in the elf hangout zone, no matter how many there are. */
 
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 2em;
-  flex-direction: column;
-  min-width: 200px;
+  width: 200px;
+  min-width: 300px;
   min-height: 200px;
-  max-width: 5ch;
+  max-width: 400px;
   overflow-y: scroll;
+  text-align: center;
   background: var(--wine-red);
-  padding: 1em 2em;
+  padding: 2em 3em 2em 1em;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
@@ -49,7 +52,12 @@ h1 {
 }
 
 .elf {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
   font-size: 30px;
+  margin: 0;
+  padding: 0;
 }
 
 button {
