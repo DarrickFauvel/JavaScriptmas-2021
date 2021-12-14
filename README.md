@@ -29,3 +29,5 @@ December 1 - December 24
 12. [Day 12 - Christmas Guest List](https://darrickfauvel.github.io/JavaScriptmas-2021/day12-christmas-guest-list/ 'Day 12 - Christmas Guest List')
 
 13. [Day 13 - Christmas Dinner Calculator](https://darrickfauvel.github.io/JavaScriptmas-2021/day13-christmas-dinner-calculator/ 'Day 13 - Christmas Dinner Calculator')
+
+14. [Day 14 - Lonely Elf](https://darrickfauvel.github.io/JavaScriptmas-2021/day14-lonely-elf/ 'Day 14 - Lonely Elf')
