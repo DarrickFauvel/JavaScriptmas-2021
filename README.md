@@ -33,3 +33,5 @@ December 1 - December 24
 14. [Day 14 - Lonely Elf](https://darrickfauvel.github.io/JavaScriptmas-2021/day14-lonely-elf/ 'Day 14 - Lonely Elf')
 
 15. [Day 15 - Festive Translator](https://darrickfauvel.github.io/JavaScriptmas-2021/day15-festive-translator/ 'Day 15 - Festive Translator')
+
+16. [Day 16 - Christmas Movie Selector](https://darrickfauvel.github.io/JavaScriptmas-2021/day16-christmas-movie-selector/ 'Day 16 - Christmas Movie Selector')
