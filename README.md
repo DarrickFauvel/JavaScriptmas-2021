@@ -35,3 +35,5 @@ December 1 - December 24
 15. [Day 15 - Festive Translator](https://darrickfauvel.github.io/JavaScriptmas-2021/day15-festive-translator/ 'Day 15 - Festive Translator')
 
 16. [Day 16 - Christmas Movie Selector](https://darrickfauvel.github.io/JavaScriptmas-2021/day16-christmas-movie-selector/ 'Day 16 - Christmas Movie Selector')
+
+17. [Day 17 - Naughty & Nice List](https://darrickfauvel.github.io/JavaScriptmas-2021/day17-naughty-nice-list/ 'Day 17 - Naughty & Nice List')
