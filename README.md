@@ -37,3 +37,5 @@ December 1 - December 24
 16. [Day 16 - Christmas Movie Selector](https://darrickfauvel.github.io/JavaScriptmas-2021/day16-christmas-movie-selector/ 'Day 16 - Christmas Movie Selector')
 
 17. [Day 17 - Naughty & Nice List](https://darrickfauvel.github.io/JavaScriptmas-2021/day17-naughty-nice-list/ 'Day 17 - Naughty & Nice List')
+
+18. [Day 18 - Custom Shopping Checkboxes](https://darrickfauvel.github.io/JavaScriptmas-2021/day18-custom-shopping-checkboxes/ 'Day 18 - Custom Shopping Checkboxes')
