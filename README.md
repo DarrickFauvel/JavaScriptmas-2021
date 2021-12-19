@@ -39,3 +39,5 @@ December 1 - December 24
 17. [Day 17 - Naughty & Nice List](https://darrickfauvel.github.io/JavaScriptmas-2021/day17-naughty-nice-list/ 'Day 17 - Naughty & Nice List')
 
 18. [Day 18 - Custom Shopping Checkboxes](https://darrickfauvel.github.io/JavaScriptmas-2021/day18-custom-shopping-checkboxes/ 'Day 18 - Custom Shopping Checkboxes')
+
+19. [Day 19 - Dessert Decider](https://darrickfauvel.github.io/JavaScriptmas-2021/day19-dessert-decider/ 'Day 19 - Dessert Decider')
