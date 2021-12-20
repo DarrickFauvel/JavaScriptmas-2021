@@ -41,3 +41,5 @@ December 1 - December 24
 18. [Day 18 - Custom Shopping Checkboxes](https://darrickfauvel.github.io/JavaScriptmas-2021/day18-custom-shopping-checkboxes/ 'Day 18 - Custom Shopping Checkboxes')
 
 19. [Day 19 - Dessert Decider](https://darrickfauvel.github.io/JavaScriptmas-2021/day19-dessert-decider/ 'Day 19 - Dessert Decider')
+
+20. [Day 20 - Snowman Customiser](https://darrickfauvel.github.io/JavaScriptmas-2021/day20-snowman-customiser/ 'Day 20 - Snowman Customiser')
