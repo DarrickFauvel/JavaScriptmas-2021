@@ -43,3 +43,5 @@ December 1 - December 24
 19. [Day 19 - Dessert Decider](https://darrickfauvel.github.io/JavaScriptmas-2021/day19-dessert-decider/ 'Day 19 - Dessert Decider')
 
 20. [Day 20 - Snowman Customiser](https://darrickfauvel.github.io/JavaScriptmas-2021/day20-snowman-customiser/ 'Day 20 - Snowman Customiser')
+
+21. [Day 21 - Reindeer Speedometer](https://darrickfauvel.github.io/JavaScriptmas-2021/day21-reindeer-speedometer/ 'Day 21 - Reindeer Speedometer')
