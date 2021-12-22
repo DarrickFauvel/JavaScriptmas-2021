@@ -45,3 +45,5 @@ December 1 - December 24
 20. [Day 20 - Snowman Customiser](https://darrickfauvel.github.io/JavaScriptmas-2021/day20-snowman-customiser/ 'Day 20 - Snowman Customiser')
 
 21. [Day 21 - Reindeer Speedometer](https://darrickfauvel.github.io/JavaScriptmas-2021/day21-reindeer-speedometer/ 'Day 21 - Reindeer Speedometer')
+
+22. [Day 22 - Christmas Stress Buster](https://darrickfauvel.github.io/JavaScriptmas-2021/day22-christmas-stress-buster/ 'Day 22 - Christmas Stress Buster')
