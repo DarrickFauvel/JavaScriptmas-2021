@@ -47,3 +47,5 @@ December 1 - December 24
 21. [Day 21 - Reindeer Speedometer](https://darrickfauvel.github.io/JavaScriptmas-2021/day21-reindeer-speedometer/ 'Day 21 - Reindeer Speedometer')
 
 22. [Day 22 - Christmas Stress Buster](https://darrickfauvel.github.io/JavaScriptmas-2021/day22-christmas-stress-buster/ 'Day 22 - Christmas Stress Buster')
+
+23. [Day 22 - Customisable Santa Sign](https://darrickfauvel.github.io/JavaScriptmas-2021/day23-customisable-santa-sign/ 'Day 22 - Customisable Santa Sign')
