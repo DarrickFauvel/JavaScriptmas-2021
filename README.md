@@ -48,4 +48,4 @@ December 1 - December 24
 
 22. [Day 22 - Christmas Stress Buster](https://darrickfauvel.github.io/JavaScriptmas-2021/day22-christmas-stress-buster/ 'Day 22 - Christmas Stress Buster')
 
-23. [Day 22 - Customisable Santa Sign](https://darrickfauvel.github.io/JavaScriptmas-2021/day23-customisable-santa-sign/ 'Day 22 - Customisable Santa Sign')
+23. [Day 23 - Customisable Santa Sign](https://darrickfauvel.github.io/JavaScriptmas-2021/day23-customisable-santa-sign/ 'Day 23 - Customisable Santa Sign')
